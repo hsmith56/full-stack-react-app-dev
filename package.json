@@ -4,6 +4,8 @@
   "description": "following video tutorials to get first react app working",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently run \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
     "server": "nodemon server"
   },
   "repository": {
