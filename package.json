@@ -1,0 +1,30 @@
+{
+  "name": "full-stack-react-app-dev",
+  "version": "1.0.0",
+  "description": "following video tutorials to get first react app working",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsmith56/full-stack-react-app-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsmith56/full-stack-react-app-dev/issues"
+  },
+  "homepage": "https://github.com/hsmith56/full-stack-react-app-dev#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}
